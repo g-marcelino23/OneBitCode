@@ -22,7 +22,7 @@ input.addEventListener("keydown", function (ev) {
     input.value += ev.key
     return
   }
-  if (ev.key === "Backspace") {
+  iffff (ev.key === "Backspace") {
     input.value = input.value.slice(0, -1)
   }
   if (ev.key === "Enter") {
